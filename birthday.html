@@ -89,7 +89,18 @@
         body {
             background: #E5E5E5;
             background-image: url("./back.jpg");
+            width: auto;
+            margin: 0;
             padding: 50px;
+            max-width: 960px;
+            margin: 0 auto;
+            transform-style: preserve-3d;
+            -moz-transform-style: preserve-3d;
+            -webkit-transform-style: preserve-3d;
+            perspective: 5000px;
+            -moz-perspective: 5000px;
+            -webkit-perspective: 5000px;
+            position: relative;
         }
 
         #card-front {
@@ -334,10 +345,10 @@
     </script>
 
     <div style="visibility: hidden;">
-        <embed src="./BirthdayPage/bday.mp3" autostart="true" loop="true">
+        <embed src="bday.mp3" autostart="true" loop="true">
     </div>
     <div style="visibility: hidden;">
-        <embed src="BirthdayPage/bday.mp3"true" loop="true">
+        <embed src="bday.mp3"true" loop="true">
     </div>
 
 
